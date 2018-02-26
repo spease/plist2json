@@ -1,0 +1,12 @@
+[package]
+name = "plist2json"
+version = "0.1.0"
+authors = ["Steven Pease <peasteven@gmail.com>"]
+
+[dependencies]
+# plist-rs = "0.1"
+plist = { git = "https://github.com/spease/rust-plist.git" }
+quicli = "0.2.0"
+serde_json = "1.0.9"
+serde-transcode = "1.0.0"
+serde = "1.0.27"
